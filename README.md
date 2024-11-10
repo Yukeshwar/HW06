@@ -1,60 +1,9 @@
-# p5.js Template
+Tree Health Visualization - NYC 2015 Tree Census
 
-This is a README file that can be used to describe and document your assignment.
+This visualization represents the health of trees across New York City's boroughs, based on data from the 2015 NYC Tree Census. The aim of this project is to create an engaging, informative, and visually appealing map that allows viewers to understand the distribution and health of trees throughout the city. The color scheme and sizes of each point are carefully chosen to reflect the health status of trees, with green representing "Good" health, yellow for "Fair," red for "Poor," and gray for "Unknown" status. This setup gives a clear view of the overall health of NYC's urban forest.
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+To enhance readability and provide a sense of orientation, the map includes a simple outline of New York City’s boroughs. Each borough is labeled with clear, bold text to help viewers locate areas such as Manhattan, Brooklyn, Queens, Bronx, and Staten Island. This makes the data more accessible, allowing viewers to quickly connect the health data with the borough layout of NYC. Additionally, a legend is included in the lower left corner to explain the color and size of each tree point, adding further clarity without overwhelming the design.
 
----
----
+The visualization employs a soft gradient background to create an elegant and calming effect that complements the tree health colors without distracting from the main data points. This background enhances the aesthetics of the map while keeping the focus on the data. The variation in dot sizes, as well as transparency, adds depth to the map and helps distinguish between tree health levels.
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
-
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2024f-b.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+This project fulfills the requirements of the assignment by utilizing multiple data fields (latitude, longitude, and health status) and creating a visualization that is both informative and expressive. The design balances aesthetics with clarity, providing a clean, intuitive interface for users to explore tree health across New York City. The inclusion of labels, a legend, and borough outlines makes it easy for viewers to understand and interact with the data meaningfully.
