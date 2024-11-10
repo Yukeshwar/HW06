@@ -56,23 +56,24 @@ function draw() {
 function setElegantGradientBackground() {
   for (let y = 0; y < height; y++) {
     let inter = map(y, 0, height, 0, 1);
-    let c = lerpColor(color(245, 248, 255), color(255, 245, 250), inter);
+    let c = lerpColor(color(200, 225, 255), color(255, 230, 240), inter);
     stroke(c);
     line(0, y, width, y);
   }
 }
 
 function drawMapOutline() {
-  stroke(50, 50, 50, 150);
+  stroke(100, 100, 100, 150);
   strokeWeight(1.5);
   noFill();
-  
+
   beginShape();
-  vertex(100, height - 100);
-  vertex(200, height - 500);
-  vertex(400, height - 550);
-  vertex(500, height - 200);
-  vertex(600, height - 100);
+  vertex(100, height - 150);
+  vertex(300, height - 600);
+  vertex(450, height - 620);
+  vertex(500, height - 450);
+  vertex(700, height - 300);
+  vertex(650, height - 150);
   endShape(CLOSE);
 }
 
